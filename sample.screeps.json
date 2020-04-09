@@ -1,0 +1,18 @@
+{
+  "main": {
+    "token": "TOKEN",
+    "protocol": "https",
+    "hostname": "screeps.com",
+    "port": 443,
+    "path": "/",
+    "branch": "pearlos"
+  },
+  "dev": {
+    "token": "TOKEN",
+    "protocol": "https",
+    "hostname": "screeps.com",
+    "port": 443,
+    "path": "/",
+    "branch": "pearlos_dev"
+  }
+}

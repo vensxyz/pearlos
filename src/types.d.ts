@@ -1,12 +1,12 @@
-interface CreepMemory {
-    role: string;
+interface PearlMemory {
+    version: string;
+    verified: boolean;
+    
     room: string;
-    working: boolean;
 }
 
 interface Memory {
-    uuid: number;
-    log: any;
+    pearlMemory: PearlMemory;
 }
 
 declare namespace NodeJS {
